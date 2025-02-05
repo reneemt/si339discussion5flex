@@ -1,0 +1,61 @@
+/* color palette
+highlight blue: #496DDB
+subtle blue: #717EC3
+orange: #EE8434
+reddish: #C95D63
+white (text): #f5f5f5
+black (text): #000000
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    border: 5px solid #496DDB;
+    background-color: #717EC3;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: bold;
+    /* TODO: make the nav bar 
+    spread out across the top of the screen*/
+
+}
+
+main {
+    margin: 5px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.album-container {
+    border: 5px solid #EE8434;
+    background-color: #C95D63;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    /*TODO: turn this into a flex container 
+    and follow instructions from the slides*/
+}
+
+.album-art {
+    width: 30%;
+    margin: 1%;
+}
+
+.album-container p{
+    border: 5px dashed #496DDB;
+    text-wrap: wrap;
+    font-size: 30px;
+    /*TODO: change the width so 
+    the album art and title are 
+    next to each other */
+}
