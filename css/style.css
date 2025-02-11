@@ -25,6 +25,8 @@ ul {
     font-weight: bold;
     /* TODO: make the nav bar 
     spread out across the top of the screen*/
+    display: flex;
+    justify-content: space-evenly;
 }
 
 main {
@@ -45,6 +47,10 @@ h2 {
     padding: 5px;
     /*TODO: turn this into a flex container 
     and follow instructions from the slides*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
 }
 
 .album-art {
@@ -73,3 +79,16 @@ about the p inside the album-container div:
 - change the flex-wrap of the album-container
     to wrap
 */
+@media only screen and (min-width: 800px){
+    .album-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .album-container p{
+        border: 5px dashed #EE8434;
+        width: 25%;
+    }
+    .album-art{
+       width: 20%;
+    }
+}
