@@ -81,6 +81,7 @@ about the p inside the album-container div:
 */
 @media only screen and (min-width: 800px){
     .album-container{
+        /* row reverse doesn't look like the slide so i made it row */
         flex-direction: row;
         flex-wrap: wrap;
     }
